@@ -921,15 +921,15 @@
 // os campos src com os nomes exatos dos arquivos.
 // ================================================================
 const GALLERY_CONFIG = {
-  projectName: 'MORI MORI — MARIA DE FÁTIMA',
+  projectName: 'TENDA LA BUENA VISTA',
   projectSub:  '',
 
   categories: [
     { id: 'areas-comuns', label: 'Áreas Comuns' },
-    { id: 'apartamento',  label: 'Apartamento Decorado' },
     {
       id: 'plantas', label: 'Plantas',
       subs: [
+        { id: 'pl-plantas',  label: 'Plantas' },
         { id: 'pl-apartamentos',  label: 'Apartamento' },
       ]
     },
@@ -937,33 +937,31 @@ const GALLERY_CONFIG = {
 
   items: [
     // ═══ ÁREAS COMUNS ═══
-    { id:1, type:'image', category:'areas-comuns', title:'Áreas Comuns 01', src:'assets/IMAGENS/01.png', thumb:'assets/thumbs/IMAGENS/01.jpg' },
-    { id:2, type:'image', category:'areas-comuns', title:'Áreas Comuns 02', src:'assets/IMAGENS/02.png', thumb:'assets/thumbs/IMAGENS/02.jpg' },
-    { id:3, type:'image', category:'areas-comuns', title:'Áreas Comuns 03', src:'assets/IMAGENS/03.png', thumb:'assets/thumbs/IMAGENS/03.jpg' },
-    { id:4, type:'image', category:'areas-comuns', title:'Áreas Comuns 04', src:'assets/IMAGENS/04.png', thumb:'assets/thumbs/IMAGENS/04.jpg' },
-    { id:5, type:'image', category:'areas-comuns', title:'Áreas Comuns 05', src:'assets/IMAGENS/05.png', thumb:'assets/thumbs/IMAGENS/05.jpg' },
-    { id:6, type:'image', category:'areas-comuns', title:'Áreas Comuns 06', src:'assets/IMAGENS/06.png', thumb:'assets/thumbs/IMAGENS/06.jpg' },
-    { id:7, type:'image', category:'areas-comuns', title:'Áreas Comuns 08', src:'assets/IMAGENS/08.png', thumb:'assets/thumbs/IMAGENS/08.jpg' },
-    { id:8, type:'image', category:'areas-comuns', title:'Áreas Comuns 09', src:'assets/IMAGENS/09.png', thumb:'assets/thumbs/IMAGENS/09.jpg' },
-    { id:9, type:'image', category:'areas-comuns', title:'Áreas Comuns 10', src:'assets/IMAGENS/10.png', thumb:'assets/thumbs/IMAGENS/10.jpg' },
-    { id:10, type:'image', category:'areas-comuns', title:'Áreas Comuns 12', src:'assets/IMAGENS/12.png', thumb:'assets/thumbs/IMAGENS/12.jpg' },
-    { id:11, type:'image', category:'areas-comuns', title:'Áreas Comuns 13', src:'assets/IMAGENS/13.png', thumb:'assets/thumbs/IMAGENS/13.jpg' },
-    { id:12, type:'image', category:'areas-comuns', title:'Áreas Comuns 14', src:'assets/IMAGENS/14.png', thumb:'assets/thumbs/IMAGENS/14.jpg' },
-    { id:13, type:'image', category:'areas-comuns', title:'Áreas Comuns 15', src:'assets/IMAGENS/15.png', thumb:'assets/thumbs/IMAGENS/15.jpg' },
-    { id:14, type:'image', category:'areas-comuns', title:'Áreas Comuns 16', src:'assets/IMAGENS/16.png', thumb:'assets/thumbs/IMAGENS/16.jpg' },
-    { id:15, type:'image', category:'areas-comuns', title:'Áreas Comuns 17', src:'assets/IMAGENS/17.png', thumb:'assets/thumbs/IMAGENS/17.jpg' },
-    { id:16, type:'image', category:'areas-comuns', title:'Áreas Comuns 18', src:'assets/IMAGENS/18.png', thumb:'assets/thumbs/IMAGENS/18.jpg' },
-
-    // ═══ APARTAMENTO DECORADO ═══
-    { id:17, type:'image', category:'apartamento', title:'Sala de Estar', src:'assets/IMAGENS/Sala de estar.png', thumb:'assets/thumbs/IMAGENS/Sala de estar.jpg' },
-    { id:18, type:'image', category:'apartamento', title:'Sala de Jantar', src:'assets/IMAGENS/Sala de jantar.png', thumb:'assets/thumbs/IMAGENS/Sala de jantar.jpg' },
-    { id:19, type:'image', category:'apartamento', title:'Cozinha', src:'assets/IMAGENS/Cozinha.png', thumb:'assets/thumbs/IMAGENS/Cozinha.jpg' },
-    { id:20, type:'image', category:'apartamento', title:'Quarto 01', src:'assets/IMAGENS/Quarto 01.png', thumb:'assets/thumbs/IMAGENS/Quarto 01.jpg' },
-    { id:21, type:'image', category:'apartamento', title:'Quarto 02', src:'assets/IMAGENS/Quarto 02.png', thumb:'assets/thumbs/IMAGENS/Quarto 02.jpg' },
-    { id:22, type:'image', category:'apartamento', title:'Banheiro', src:'assets/IMAGENS/Banheiro.png', thumb:'assets/thumbs/IMAGENS/Banheiro.jpg' },
+    { id:1, type:'image', category:'areas-comuns', title:'Churrasqueira anexa ao salão de festas', src:'assets/IMAGENS/Churrasqueira anexa ao salão de festas.png', thumb:'assets/thumbs/IMAGENS/Churrasqueira anexa ao salão de festas.jpg' },
+    { id:2, type:'image', category:'areas-comuns', title:'Churrasqueira gourmet', src:'assets/IMAGENS/Churrasqueira gourmet.png', thumb:'assets/thumbs/IMAGENS/Churrasqueira gourmet.jpg' },
+    { id:3, type:'image', category:'areas-comuns', title:'Play Pet', src:'assets/IMAGENS/FRUTAS LA BUENA VISTA GO_PLAY PET_CAM 04_LR_REV 02.png', thumb:'assets/thumbs/IMAGENS/FRUTAS LA BUENA VISTA GO_PLAY PET_CAM 04_LR_REV 02.jpg' },
+    { id:4, type:'image', category:'areas-comuns', title:'Praça de Chegada', src:'assets/IMAGENS/FRUTAS LA BUENA VISTA GO_PRACA DE CHEGADA_CAM 09_LR_REV 04.png', thumb:'assets/thumbs/IMAGENS/FRUTAS LA BUENA VISTA GO_PRACA DE CHEGADA_CAM 09_LR_REV 04.jpg' },
+    { id:5, type:'image', category:'areas-comuns', title:'Fachada', src:'assets/IMAGENS/Fachada.png', thumb:'assets/thumbs/IMAGENS/Fachada.jpg' },
+    { id:6, type:'image', category:'areas-comuns', title:'Múltipla Estação', src:'assets/IMAGENS/Múltipla Estação.png', thumb:'assets/thumbs/IMAGENS/Múltipla Estação.jpg' },
+    { id:7, type:'image', category:'areas-comuns', title:'Piscinas adulto e infantil', src:'assets/IMAGENS/Piscinas adulto e infantil.png', thumb:'assets/thumbs/IMAGENS/Piscinas adulto e infantil.jpg' },
+    { id:8, type:'image', category:'areas-comuns', title:'Play Baby', src:'assets/IMAGENS/Play Baby.png', thumb:'assets/thumbs/IMAGENS/Play Baby.jpg' },
+    { id:9, type:'image', category:'areas-comuns', title:'Portaria', src:'assets/IMAGENS/Portaria.png', thumb:'assets/thumbs/IMAGENS/Portaria.jpg' },
+    { id:10, type:'image', category:'areas-comuns', title:'Quadra gramada', src:'assets/IMAGENS/Quadra gramada.png', thumb:'assets/thumbs/IMAGENS/Quadra gramada.jpg' },
+    { id:11, type:'image', category:'areas-comuns', title:'Vôo de pássaro das piscinas', src:'assets/IMAGENS/Vôo de pássaro das piscinas.png', thumb:'assets/thumbs/IMAGENS/Vôo de pássaro das piscinas.jpg' },
+    { id:12, type:'image', category:'areas-comuns', title:'Vôo de pássaro do lazer', src:'assets/IMAGENS/Vôo de pássaro do lazer.png', thumb:'assets/thumbs/IMAGENS/Vôo de pássaro do lazer.jpg' },
 
     // ═══ PLANTAS ═══
-    { id:23, type:'image', category:'plantas', subCategory:'pl-apartamentos', isPlant:true, title:'Planta 3D', src:'assets/IMAGENS/PLANTA 3D.png', thumb:'assets/thumbs/IMAGENS/PLANTA 3D.jpg' },
+    { id:13, type:'image', category:'plantas', subCategory:'pl-plantas', isPlant:true, title:'Implantação do Condomínio', src:'assets/PLANTAS/Plantas/Implantação do condomínio - para colocar no menu.png', thumb:'assets/thumbs/PLANTAS/Plantas/Implantação do condomínio - para colocar no menu.jpg' },
+    { id:14, type:'image', category:'plantas', subCategory:'pl-plantas', isPlant:true, title:'Planta Tipo com Varanda', src:'assets/PLANTAS/Plantas/PLANTA-TIPO-COM VARANDA NORMAL.png', thumb:'assets/thumbs/PLANTAS/Plantas/PLANTA-TIPO-COM VARANDA NORMAL.jpg' },
+    { id:15, type:'image', category:'plantas', subCategory:'pl-plantas', isPlant:true, title:'Planta Tipo Garden', src:'assets/PLANTAS/Plantas/PLANTA-TIPO-GARDEN.png', thumb:'assets/thumbs/PLANTAS/Plantas/PLANTA-TIPO-GARDEN.jpg' },
+    { id:16, type:'image', category:'plantas', subCategory:'pl-apartamentos', isPlant:true, title:'BANHEIRO', src:'assets/PLANTAS/Apartamento/BANHEIRO.png', thumb:'assets/thumbs/PLANTAS/Apartamento/BANHEIRO.jpg' },
+    { id:17, type:'image', category:'plantas', subCategory:'pl-apartamentos', isPlant:true, title:'COZINHA NORMAL SEM VARANDA', src:'assets/PLANTAS/Apartamento/COZINHA NORMAL SEM VARANDA.png', thumb:'assets/thumbs/PLANTAS/Apartamento/COZINHA NORMAL SEM VARANDA.jpg' },
+    { id:18, type:'image', category:'plantas', subCategory:'pl-apartamentos', isPlant:true, title:'GARDEN', src:'assets/PLANTAS/Apartamento/GARDEN.png', thumb:'assets/thumbs/PLANTAS/Apartamento/GARDEN.jpg' },
+    { id:19, type:'image', category:'plantas', subCategory:'pl-apartamentos', isPlant:true, title:'Opção de varanda', src:'assets/PLANTAS/Apartamento/Opção de varanda.png', thumb:'assets/thumbs/PLANTAS/Apartamento/Opção de varanda.jpg' },
+    { id:20, type:'image', category:'plantas', subCategory:'pl-apartamentos', isPlant:true, title:'QUARTO-CASAL1', src:'assets/PLANTAS/Apartamento/QUARTO-CASAL1.png', thumb:'assets/thumbs/PLANTAS/Apartamento/QUARTO-CASAL1.jpg' },
+    { id:21, type:'image', category:'plantas', subCategory:'pl-apartamentos', isPlant:true, title:'QUARTO-CASAL2', src:'assets/PLANTAS/Apartamento/QUARTO-CASAL2.png', thumb:'assets/thumbs/PLANTAS/Apartamento/QUARTO-CASAL2.jpg' },
+    { id:22, type:'image', category:'plantas', subCategory:'pl-apartamentos', isPlant:true, title:'QUARTO', src:'assets/PLANTAS/Apartamento/QUARTO.png', thumb:'assets/thumbs/PLANTAS/Apartamento/QUARTO.jpg' },
+    { id:23, type:'image', category:'plantas', subCategory:'pl-apartamentos', isPlant:true, title:'SALA', src:'assets/PLANTAS/Apartamento/SALA.png', thumb:'assets/thumbs/PLANTAS/Apartamento/SALA.jpg' },
   ],
 };
 
@@ -1011,6 +1009,7 @@ const MODE = (() => {
 // Categorias exibidas no filtro principal conforme modo
 const DISPLAY_CATS = (() => {
   if (MODE === 'plantas') return [
+    { id: 'pl-plantas', label: 'Plantas' },
     { id: 'pl-apartamentos', label: 'Apartamento' },
   ];
   if (MODE === 'imagens') return GALLERY_CONFIG.categories.filter(c => c.id !== 'plantas');
@@ -1394,7 +1393,7 @@ function closeGallery() {
 function init() {
   // Filtro inicial depende do modo
   if (MODE === 'plantas') {
-    st.cat = 'pl-apartamentos';
+    st.cat = 'pl-plantas';
     st.sub = null;
   } else {
     st.cat = DISPLAY_CATS[0].id;               // 'areas-comuns'
