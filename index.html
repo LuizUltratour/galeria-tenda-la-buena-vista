@@ -13,15 +13,15 @@
     :root {
       /* Tenda La Buena Vista — tema verde imersivo.
          --bg = fundo marrom (primária) · --dark = foreground claro (secundária) · --accent = secundária usada em destaque/estado ativo */
-      --bg: #97192A;             /* marrom principal — cor primária */
-      --surface: #3E6330;        /* superfície de card (marrom +luz) */
-      --surface-2: #4A6E3B;      /* superfície elevada / hover */
+      --bg: #991A26;             /* marrom principal — cor primária */
+      --surface: #A82B37;        /* superfície de card (marrom +luz) */
+      --surface-2: #B53C48;      /* superfície elevada / hover */
       --dark: #F2EBDD;           /* foreground / texto principal — cor secundária */
       --text-soft: rgba(242,235,221,0.62);
       --border: rgba(242,235,221,0.12);
       --border-strong: rgba(242,235,221,0.28);
       --accent: #F2EBDD;         /* claro — destaque / estado ativo */
-      --accent-ink: #97192A;     /* texto escuro sobre fundo de destaque claro */
+      --accent-ink: #991A26;     /* texto escuro sobre fundo de destaque claro */
       --accent-soft: rgba(242,235,221,0.14);
       --white: #F2EBDD;
       --font-serif: 'Cormorant Garamond', Georgia, serif;
@@ -105,7 +105,7 @@
     }
     @media (hover: hover) { .f-btn:hover { border-color: var(--accent); background: var(--accent-soft); } }
     .f-btn:active { border-color: var(--accent); background: var(--accent-soft); }
-    .f-btn.active { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); box-shadow: 0 4px 14px rgba(151,25,42,0.35); }
+    .f-btn.active { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); box-shadow: 0 4px 14px rgba(153,26,38,0.35); }
     .f-btn:active { transform: scale(0.97); }
 
     /* Sub-filter */
@@ -265,7 +265,7 @@
       transform: scale(0.75);
       transition: opacity 0.25s var(--ease), transform 0.3s var(--spring);
       color: var(--accent-ink);
-      box-shadow: 0 4px 14px rgba(151,25,42,0.45);
+      box-shadow: 0 4px 14px rgba(153,26,38,0.45);
       z-index: 2;
     }
     .g-card.loaded:hover .card-zoom { opacity: 1; transform: scale(1); }
@@ -448,7 +448,7 @@
       position: absolute;
       bottom: 14px; left: 14px;
       padding: 4px 12px;
-      background: rgba(151,25,42,0.82);
+      background: rgba(153,26,38,0.82);
       color: var(--dark);
       font-size: 9.5px;
       font-weight: 500;
@@ -487,7 +487,7 @@
     .cob-hint {
       font-size: 10px;
       letter-spacing: 0.05em;
-      color: rgba(151,25,42,0.5);
+      color: rgba(153,26,38,0.5);
       text-transform: uppercase;
     }
 
@@ -521,7 +521,7 @@
       z-index: 9000;
       display: flex;
       flex-direction: column;
-      background: rgba(151,25,42,0.98);
+      background: rgba(153,26,38,0.98);
       opacity: 0;
       pointer-events: none;
       transition: opacity 0.3s ease;
@@ -824,13 +824,13 @@
     .f-btn, .sf-btn { color: #B1904E; border-color: rgba(177,144,78,0.45); }
     .sf-btn { opacity: 0.75; }
     @media (hover: hover) { .f-btn:hover, .sf-btn:hover { border-color: #B1904E; background: rgba(177,144,78,0.14); } }
-    .f-btn:active, .sf-btn:active { background: #B1904E; color: #97192A; border-color: #B1904E; }
-    .f-btn.active, .sf-btn.active { background: #B1904E; color: #97192A; border-color: #B1904E; box-shadow: 0 4px 14px rgba(0,0,0,0.25); }
+    .f-btn:active, .sf-btn:active { background: #B1904E; color: #991A26; border-color: #B1904E; }
+    .f-btn.active, .sf-btn.active { background: #B1904E; color: #991A26; border-color: #B1904E; box-shadow: 0 4px 14px rgba(0,0,0,0.25); }
 
-    /* ── Botões de filtro: #97192A / texto branco; pressed/ativo invertido; sem cantos arredondados ── */
-    .f-btn, .sf-btn { background: #97192A; color: #FFFFFF; border: 1px solid rgba(255,255,255,0.45); border-radius: 0; opacity: 1; }
-    @media (hover: hover) { .f-btn:hover, .sf-btn:hover { background: #97192A; color: #FFFFFF; border-color: #FFFFFF; } }
-    .f-btn:active, .sf-btn:active, .f-btn.active, .sf-btn.active { background: #FFFFFF; color: #97192A; border-color: #FFFFFF; box-shadow: none; }
+    /* ── Botões de filtro: #991A26 / texto branco; pressed/ativo invertido; sem cantos arredondados ── */
+    .f-btn, .sf-btn { background: #991A26; color: #FFFFFF; border: 1px solid rgba(255,255,255,0.45); border-radius: 50px; opacity: 1; }
+    @media (hover: hover) { .f-btn:hover, .sf-btn:hover { background: #991A26; color: #FFFFFF; border-color: #FFFFFF; } }
+    .f-btn:active, .sf-btn:active, .f-btn.active, .sf-btn.active { background: #0091D0; color: #FFFFFF; border-color: #0091D0; box-shadow: none; }
 
     /* ── Fundo das prévias ── */
     .g-card { background: #B1904E; }
