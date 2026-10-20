@@ -155,6 +155,12 @@ GaleriaPlantas(1);
 
 // Fecha galeria de plantas
 GaleriaPlantas(0);
+
+// Abre galeria do apartamento
+GaleriaApartamento(1);
+
+// Fecha galeria do apartamento
+GaleriaApartamento(0);
 ```
 
 ---

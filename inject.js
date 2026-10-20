@@ -69,6 +69,12 @@
     if (show === 1) _open('plantas'); else _close();
   };
 
+  // GaleriaApartamento(1) → abre galeria do apartamento
+  // GaleriaApartamento(0) → fecha
+  w.GaleriaApartamento = function (show) {
+    if (show === 1) _open('apartamento'); else _close();
+  };
+
   // AbrirGaleriaVideos(1) → abre galeria de vídeos
   // AbrirGaleriaVideos(0) → fecha
   w.AbrirGaleriaVideos = function (show) {
